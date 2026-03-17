@@ -13,8 +13,20 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EpiMigrApp - Medicina Predictiva Neural",
-  description: "El primer ecosistema de medicina predictiva enfocado en el cerebro. EpiMigrApp actúa como una barrera preventiva interconectada para migrañas y epilepsia.",
+  title: "EpiMigrApp — Medicina Predictiva Neurológica",
+  description: "El primer ecosistema de medicina predictiva enfocado en Epilepsia y Migraña. EpiMigrApp anticipa crisis neurológicas usando IA, wearables y algoritmos clínicos avanzados (XAI).",
+  icons: {
+    icon: [
+      { url: "/epimigrapp-website/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/epimigrapp-website/favicon.svg",
+  },
+  openGraph: {
+    title: "EpiMigrApp — Medicina Predictiva Neurológica",
+    description: "Anticipa crisis de Epilepsia y Migraña con IA clínica de grado médico.",
+    type: "website",
+    locale: "es_AR",
+  },
 };
 
 export default function RootLayout({
