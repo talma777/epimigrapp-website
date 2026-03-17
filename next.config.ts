@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 // Cuando corramos npm run deploy, setearemos DEPLOY_TARGET=gh-pages
 const isGhPages = process.env.DEPLOY_TARGET === "gh-pages";
-const basePath = isGhPages ? "/EppiMigrApp-Monorepo" : "";
+const basePath = isGhPages ? "/epimigrapp-website" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
